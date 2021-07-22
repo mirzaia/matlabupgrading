@@ -1,0 +1,23 @@
+optimisasi deterministik - menggunakan turunan
+optimisasi stokastik 
+- variabel yg dioptimisasi
+- Fungsi objektif (cost / profit)
+- constraint
+
+variabel dioptim -> model -> fungsi objektif (fitness)
+
+model = bagaimana variabel optim bisa menjadi fungsi objektif
+
+
+1. jumlah populasi - semakin banyak lebih baik hasilnya, tapi runningnya lama
+2. maksimal iterasi - semakin banyak lebih baik hasilnya, tapi runningnya lama
+3. constraint - batasan dari variabel yg dioptim (max, min). tiap plant berbeda
+4. penamaan fungsi objektif
+
+elitism = mempertahankan nilai fungsi objektif (fitness)(misal 90 persen 0,9 dipertahankan 0,1 di cari randomnya lagi)
+
+menentukan jumlah populasi = sampai grafiknya konvergen
+
+genetic algorithm
+
+fitness -> crossover -> mutasi -> anak terbaik -> fitness 
